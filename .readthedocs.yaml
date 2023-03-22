@@ -13,3 +13,6 @@ python:
       path: .
       extra_requirements:
         - docs
+
+sphinx:
+  builder: html
