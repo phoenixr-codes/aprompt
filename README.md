@@ -28,15 +28,13 @@ a lot of useful prompts.
 * [x] Integer
 * [x] Confirmation
 * [x] PIN Code
-* [x] Sort[^1]
+* [x] Sort
 * [x] Choice
 * [x] Multiple Choice
 * [ ] Path
 * [ ] Datetime
 * [ ] Date
 * [ ] Time
-
-[^1]: This feature is unstable. Sorting upwards does not work.
 
 
 Basic Usage
@@ -84,7 +82,7 @@ Links
 
 * [🐍 Repo](https://github.com/phoenixr-codes/aprompt)
 * [📦 PyPI](https://pypi.org/project/aprompt)
-* 📖 Docs *(soon)*
+* [📖 Docs](https://aprompt.readthedocs.io/)
 
 
 ToDo
