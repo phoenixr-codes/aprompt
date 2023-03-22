@@ -1,6 +1,5 @@
 ---
 version: 2
-formats: all
 
 build:
   os: ubuntu-20.04
@@ -13,6 +12,3 @@ python:
       path: .
       extra_requirements:
         - docs
-
-sphinx:
-  builder: html
