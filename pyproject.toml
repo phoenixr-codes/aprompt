@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aprompt"
+version = "3.0.0"
+description = "Advanced Prompts"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = [
+    "form",
+    "input",
+    "prompt",
+]
+license = {text = "MIT"}
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+dependencies = [
+    "attrs",
+    "platformdirs",
+    "readchar",
+]
+
+[project.optional-dependencies]
+docs = [
+    "furo>=2022.12.7",
+    "myst-parser>=1.0",
+    "Sphinx>=6.1",
+    "sphinx-copybutton>=0.5",
+]
+dev = ["mypy", "pytest"]
+
+[project.urls]
+"Documentation" = "https://phoenixr-codes.github.io/aprompt/"
+"Source Code" = "https://github.com/phoenixr-codes/aprompt/"
+
+[tool.mypy]
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+
+no_implicit_optional = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+markers = [
+    "meta: any other test is invalid if a test marked with this marker fails"
+]
