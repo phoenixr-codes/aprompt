@@ -1,6 +1,10 @@
 # Changelog
 
-## 3.0.0 (??-??-????)
+## 3.0.0.post1 (??-??-????)
+
+* 📄 Improved documentation
+
+## 3.0.0 (22-03-2023)
 
 * 🌠 First Release (kind of[^1])
 

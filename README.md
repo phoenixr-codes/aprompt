@@ -1,11 +1,15 @@
-aprompt - Advanced Prompts
-==========================
+aprompt - Advanced Prompt
+=========================
 
 Why use `input()` when you can go _advanced_?
 
 *aprompt* lets you prompt users in a neat way. It comes with a UI system
 and everything is customizable!
 
+![Demonstration](https://raw.githubusercontent.com/phoenixr-codes/aprompt/main/docs/media/prompt-choice.gif)
+
+[![Documentation Status](https://readthedocs.org/projects/aprompt/badge/?version=latest)](https://aprompt.readthedocs.io/en/latest/?badge=latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Features
 --------
@@ -88,8 +92,8 @@ Links
 ToDo
 ----
 
-* add path prompt as 
+* add path prompt (as extension) and document it
 * turn `match`es to `if-else`s
-* add demo file and add a GIF of it to the README
-* add GIFs to prompt engines docs
+* add demo file and add a GIF of it to the README (instead of only the choice variant)
+* add GIFs to all prompt engines docs
 * add logo
