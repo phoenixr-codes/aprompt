@@ -40,7 +40,7 @@ docs = [
 dev = ["mypy", "pytest"]
 
 [project.urls]
-"Documentation" = "https://phoenixr-codes.github.io/aprompt/"
+"Documentation" = "https://aprompt.readthedocs.io/"
 "Source Code" = "https://github.com/phoenixr-codes/aprompt/"
 
 [tool.mypy]
