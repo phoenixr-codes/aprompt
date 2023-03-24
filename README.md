@@ -96,4 +96,6 @@ ToDo
 * turn `match`es to `if-else`s
 * add demo file and add a GIF of it to the README (instead of only the choice variant)
 * add GIFs to all prompt engines docs
+* turn simple formatter to a class
 * add logo
+
