@@ -25,7 +25,7 @@ Features
 Available Prompts
 -----------------
 
-While it is easily possible to create custom prompts. aprompt comes with
+While it is easily possible to create custom prompts, aprompt comes with
 a lot of useful prompts.
 
 * [x] Text
@@ -39,6 +39,8 @@ a lot of useful prompts.
 * [ ] Datetime
 * [ ] Date
 * [ ] Time
+
+_Unchecked prompts are planned for the future_
 
 
 Basic Usage
@@ -96,6 +98,6 @@ ToDo
 * turn `match`es to `if-else`s
 * add demo file and add a GIF of it to the README (instead of only the choice variant)
 * add GIFs to all prompt engines docs
-* turn simple formatter to a class
+* turn simple formatter into a class
 * add logo
 
