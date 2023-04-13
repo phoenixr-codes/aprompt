@@ -65,7 +65,7 @@ def prompt(
 
     validate
         A callable returning ``True``/``False`` or an instance of
-        ``BaseException``/``None`` depending on the reult.
+        ``BaseException``/``None`` depending on the result.
 
         If the validation fails, the prompt will continue.
 
