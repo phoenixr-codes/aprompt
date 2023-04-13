@@ -220,7 +220,7 @@ def number(
 def choice(
     *choices: str,
     multiple: Literal[True],
-    require: Callable[[int], bool] | int | None = None,
+    require: Callable[[int], bool] | int | range | None = None,
 ) -> PromptEngine[list[str]]:
     ...
 
@@ -235,7 +235,7 @@ def choice(
 def choice(
     *choices: str,
     multiple: bool = False,
-    require: Callable[[int], bool] | int | None = None,
+    require: Callable[[int], bool] | int | range | None = None,
 ) -> PromptEngine[list[str]] | PromptEngine[str]:
     """Prompts for options.
 
@@ -259,6 +259,10 @@ def choice(
             A callable taking the amount of selected prompts as an
             integer as a single argument and returning a boolean
             whether to pass or deny the resut.
+        
+        ``range``
+            A range specifying possible amounts that are required
+            to be selected.
 
         ``int``
             An integer specifying the amount of options that are
@@ -287,6 +291,8 @@ def choice(
 
     if require is None:
         require = lambda _: True
+    elif isinstance(require, range):
+        require = lambda n: n in require
     elif isinstance(require, int):
         require = lambda n: n == require
 
