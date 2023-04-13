@@ -259,7 +259,7 @@ def choice(
             A callable taking the amount of selected prompts as an
             integer as a single argument and returning a boolean
             whether to pass or deny the resut.
-        
+
         ``Container[int]``
             A container (usually a ``range``) specifying possible amounts
             that are required to be selected.
