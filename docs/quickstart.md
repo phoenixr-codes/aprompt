@@ -7,10 +7,7 @@ of your first prompt.
 
 You can install aprompt with [pip](https://pip.pypa.io/en/stable/):
 
-```{code-block} text
----
-caption: Console
----
+```console
 pip install -U aprompt
 ```
 

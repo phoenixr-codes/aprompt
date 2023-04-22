@@ -240,6 +240,9 @@ def choice(
     """Prompts for options.
 
     .. image:: media/prompt-choice.gif
+    
+    .. versionadded:: 3.0.1
+        ``require`` now accepts containers.
 
     Parameters
     ----------

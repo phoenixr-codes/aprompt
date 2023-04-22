@@ -1,36 +1,36 @@
 # API Reference
 
-## aprompt
+## `aprompt`
 
 ```{eval-rst}
 .. automodule:: aprompt
 ```
 
-## aprompt.exceptions
+## `aprompt.exceptions`
 
 ```{eval-rst}
 .. automodule:: aprompt.exceptions
 ```
 
-## aprompt.formatters
+## `aprompt.formatters`
 
 ```{eval-rst}
 .. automodule:: aprompt.formatters
 ```
 
-## aprompt.prompts
+## `aprompt.prompts`
 
 ```{eval-rst}
 .. automodule:: aprompt.prompts
 ```
 
-## aprompt.result
+## `aprompt.result`
 
 ```{eval-rst}
 .. automodule:: aprompt.result
 ```
 
-## aprompt.widgets
+## `aprompt.widgets`
 
 ```{eval-rst}
 .. automodule:: aprompt.widgets

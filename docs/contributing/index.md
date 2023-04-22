@@ -4,12 +4,13 @@
 🏗️ Work In Progress
 ```
 
-```text
+```console
 git clone https://github.com/phoenixr-codes/aprompt.git &&
 cd $_ &&
 pip install .[docs,dev]
 ```
 
-```text
+```console
 tox run
 ```
+

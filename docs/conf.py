@@ -9,7 +9,7 @@
 project = 'aprompt'
 copyright = '2023, phoenixR'
 author = 'phoenixR'
-release = '3.0.0'
+release = '3.0.1'
 
 
 ###############

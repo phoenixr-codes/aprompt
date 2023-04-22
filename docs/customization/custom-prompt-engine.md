@@ -17,7 +17,7 @@ from aprompt import PromptEngine
 from aprompt.result import Result
 from readchar import keys as k
 
-def my_prompt(arguments) -> PromptEngine[result_type]:
+def my_prompt(arguments) -> PromptEngine[ResultType]:
     alert = False
     while True:
         key = yield [
