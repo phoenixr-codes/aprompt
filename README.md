@@ -8,13 +8,13 @@ and everything is customizable!
 
 ![Demonstration](https://raw.githubusercontent.com/phoenixr-codes/aprompt/main/docs/media/prompt-choice.gif)
 
-![PyPI](https://img.shields.io/pypi/v/aprompt)
+[![PyPI](https://img.shields.io/pypi/v/aprompt)](https://pypi.org/project/aprompt/)
 [![Documentation Status](https://readthedocs.org/projects/aprompt/badge/?version=latest)](https://aprompt.readthedocs.io/en/latest/?badge=latest)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/aprompt)
-![GitHub License](https://img.shields.io/github/license/phoenixr-codes/aprompt)
-![GitHub Repo Stars](https://img.shields.io/github/stars/phoenixr-codes/aprompt)
-![GitHub Forks](https://img.shields.io/github/forks/phoenixr-codes/aprompt)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/aprompt)](https://pypi.org/project/aprompt/)
+[![GitHub License](https://img.shields.io/github/license/phoenixr-codes/aprompt)](https://github.com/phoenixr-codes/aprompt/blob/main/LICENSE)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/phoenixr-codes/aprompt)](https://github.com/phoenixr-codes/aprompt/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/phoenixr-codes/aprompt)](https://github.com/phoenixr-codes/aprompt/forks)
 
 
 Features
