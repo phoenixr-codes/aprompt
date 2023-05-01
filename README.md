@@ -91,13 +91,13 @@ Links
 * [📖 Docs](https://aprompt.readthedocs.io/)
 
 
-ToDo
+TODO
 ----
 
 * add path prompt (as extension) and document it
-* turn `match`es to `if-else`s
+* turn `match`es into `if-else`s
 * add demo file and add a GIF of it to the README (instead of only the choice variant)
-* add GIFs to all prompt engines docs
+* add GIFs to all prompt engines in docs
 * turn simple formatter into a class
 * add logo
 
