@@ -6,6 +6,7 @@ parser = ArgumentParser(description="Example of argparse extension.")
 
 parser.add_argument(
     "--age",
+    type=int,
     default=PromptIfAbsent(
         "Please enter your age.",
         number(minimum=0, maximum=150)
