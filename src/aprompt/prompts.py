@@ -152,7 +152,7 @@ def number(
         ``default``.
 
     maximum
-        Optional maximum value. This must be less than or equal to
+        Optional maximum value. This must be greater than or equal to
         ``default``.
 
     default
