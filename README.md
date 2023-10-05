@@ -84,7 +84,7 @@ Test API
 test the result for a predefined sequence of keys.
 
 ```python
-def test_n() -> None:
+def test_confirm() -> None:
     assert prompt("", confirm(), test_with=iter("y"))
     assert not prompt("", confirm(), test_with=iter("n"))
 ```
