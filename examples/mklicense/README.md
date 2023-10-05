@@ -3,5 +3,5 @@
 ## Basic Usage
 
 ```console
-python mklicense > LICENSE.txt
+python mklicense.py > LICENSE.txt
 ```
