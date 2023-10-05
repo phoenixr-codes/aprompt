@@ -15,6 +15,7 @@ Example:
 
     parser.add_argument(
         "--age",
+        type=int,
         default=PromptIfAbsent(
             "Please enter your age.",
             number(minimum=0, maximum=150)
